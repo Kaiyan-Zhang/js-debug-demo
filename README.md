@@ -33,3 +33,11 @@ node src/index.js
 ```
 
 就可以触发 debug。
+
+这个是最简单的办法。
+
+### `feat: auto attach`
+
+`Cmd + Shift + P`，搜索`Toggle Auto Attach`。
+
+不过这个要求有`launch.json`。没有上一种简单。

@@ -5,3 +5,7 @@
 ### `feat: src`
 
 注意`launch.json`的`program`字段
+
+### `feat: module`
+
+指定了`package.json`的`type`为`module`

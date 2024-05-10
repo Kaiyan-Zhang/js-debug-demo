@@ -23,3 +23,13 @@ node --inspect-brk index.js
 我们会看到 node 在等待 9229 端口的连接。
 
 此时在 vscode 的侧边栏找到 debug，将脚本切换成刚刚创建出来的`Attach`，然后点击小三角运行，就可以看到程序在第一行停住了。
+
+### `feat: js debug terminal`
+
+直接`Cmd + Shift + P`，输入`Debug: Create JavaScript Debug Terminal`，会得到一个终端。在这个终端里面直接运行
+
+```
+node src/index.js
+```
+
+就可以触发 debug。

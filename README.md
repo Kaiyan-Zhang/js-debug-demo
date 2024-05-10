@@ -9,3 +9,17 @@
 ### `feat: module`
 
 指定了`package.json`的`type`为`module`
+
+### `feat: attach`
+
+在`launch.json`中点右下角`Add Configuration`（将 vim 切换成 input 模式），然后选择`Node: Attach`，就可以创建一个新的 Config。
+
+然后在终端执行
+
+```
+node --inspect-brk index.js
+```
+
+我们会看到 node 在等待 9229 端口的连接。
+
+此时在 vscode 的侧边栏找到 debug，将脚本切换成刚刚创建出来的`Attach`，然后点击小三角运行，就可以看到程序在第一行停住了。

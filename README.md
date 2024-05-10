@@ -41,3 +41,9 @@ node src/index.js
 `Cmd + Shift + P`，搜索`Toggle Auto Attach`。
 
 不过这个要求有`launch.json`。没有上一种简单。
+
+### `feat: typescript`
+
+在`tsconfig.json`中打开 sourceMap，会在每个生成的`.js`文件旁边多生成`.js.map`。
+
+`Cmd + Shift + P`搜索`Tasks: Configure Task`选中`tsc: build - tsconfig.json`，然后注意`launch.json`的更改。
